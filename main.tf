@@ -1,7 +1,7 @@
 # Author: Nathan Nellans (me@nathannellans.com)
 
 terraform {
-  required_version = "~> 0.13.0"  # Pin the version of terraform to the 0.14.x family
+  required_version = "~> 0.14.0"  # Pin the version of terraform to the 0.14.x family
   required_providers {            # Pin the version of the providers in use
     azurerm = {
       source  = "hashicorp/azurerm"
